@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <script type="text/javascript" src="index.js"></script> -->
+    <link href="index.css" media="screen and (min-device-width: 400px)" type="text/css" rel="stylesheet"/>
+    <link href="mobile.css" media="screen and (max-device-width: 399px)" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Wendy+One" rel="stylesheet">
+  </head>
+  <body>
+    <div style="position: relative;">
+
+
+    <h1 id="title"> Simpsons, Who Said It? </h1>
+    <button id="coolButton">New Quote</button>
+    <h2 id="simpsons_quote"></h2>
+    <h3 id="wrong"></h3>
+    <img id="donut" src="images/Donut.png" />
+    <br>
+    <input id='input' type="text" name="character name" onkeydown="reset_guess()" >
+    <br>
+
+    <h1 id="dOh">
+      D'OH! You gotta guess!
+    </h1>
+    <button id="characterButton">Who said it?</button>
+      <div id="name_picture" style="display: none;">
+        <img alt="right_answer_picture" id="simpson_picture"/>
+      <h3 id="name"></h3>
+      </div>
+
+      <button id="newQuote" style="display: none;">Pick a new Quote!</button>
+        </div>
+
+      <script type='text/javascript' src="./index.js"></script>
+
+  </body>
+</html>
