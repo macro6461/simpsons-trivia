@@ -1,12 +1,16 @@
 body {
     width: 100%;
     height: auto;
-    background-image: url("images/springfield.jpg");
     font-family: 'Wendy One', sans-serif;
-    margin-left: 2%;
-    margin-right: 2%;
-    background-width: 100%;
-    background-height: auto;
+}
+
+#backgroundImg{
+  z-index: -100;
+  position: fixed;
+  top: 0%;
+  left: -10%;
+  width: 1600px;
+  height: auto;
 }
 
 h1{
@@ -56,6 +60,8 @@ textarea:focus, input:focus{
 button:focus{
     outline: none;
 }
+
+
 
 #dOh{
   font-size: 5vw !important;
