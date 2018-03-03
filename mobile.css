@@ -163,6 +163,19 @@ h3{
   height: auto;
 }
 
+#simpsons_quote{
+  position: relative;
+  right: auto;
+  top: auto;
+  font-size: 4vw;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+  height: auto;
+}
+
 @keyframes spin {
   from {
     transform: rotateX(0deg);
