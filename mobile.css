@@ -100,6 +100,9 @@ h2{
 }
 
 h3{
+  text-align: center;
+  display: block !important;
+  margin: auto !important;
   font-size: 10vw;
   color: white;
   text-shadow: 3px 2px black;
@@ -124,18 +127,20 @@ h3{
 }
 
 #newQuote{
+  border: solid 1px black !important;
   font-family: 'Wendy One', sans-serif;
   text-align: center;
-  font-size: 4vw;
+  font-size: 10vw;
   color: yellow;
   text-shadow: 5px 5px black;
   margin-top: 0.5%;
   -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
-   width: 60%;
+   width: 80%;
+   height: auto;
    position: fixed;
    top: 35%;
-   left: 20%;
+   left: 10%;
    padding: 5%;
    animation: spin 2s;
 }

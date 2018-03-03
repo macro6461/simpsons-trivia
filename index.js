@@ -37,7 +37,7 @@ function showQuote(json){
 }
 
 function inputRefresh(){
-  debugger
+
   document.getElementById("input").value= ''
 }
 
@@ -46,11 +46,11 @@ function displayData() {
   if (input.value.length < 1){
     document.getElementById("dOh").style.display = "block"
     setTimeout(function(){
-      debugger
+
       document.getElementById("dOh").classList.add("reverse")
     }, 3000)
     setTimeout(function(){
-      debugger
+       
       document.getElementById("dOh").style.display = "none"
       document.getElementById("dOh").className = ""
     }, 4000)
@@ -71,7 +71,7 @@ function displayData() {
         guess = []
 
       } else {
-        debugger
+
         name_pic.style.display = 'unset'
         guessed_wrong.innerHTML = "WRONG!"
 
@@ -93,7 +93,7 @@ function displayData() {
         guess = []
 
       } else {
-        debugger
+
         name_pic.style.display = 'none'
         guess.push(1)
         guessed_wrong.innerHTML = "WRONG!"
