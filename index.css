@@ -24,6 +24,7 @@ h1{
 }
 
 #donut{
+  z-index: 1000;
   position: fixed;
   top: 20%;
   right: 40%;
