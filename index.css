@@ -6,6 +6,7 @@ body {
 
 #backgroundImg{
   z-index: -100;
+  transform: translateZ(-100px);
   position: fixed;
   top: 0%;
   left: -10%;
@@ -44,6 +45,7 @@ h1{
 }
 
 input{
+  transform: translateZ(-100px);
   border-radius: 10px;
   border: solid 2px white;
   background-color: skyblue;
@@ -148,6 +150,8 @@ h3{
    left: 20%;
    padding: 5%;
    animation: spin 2s;
+   -webkit-animation: spin 2s;
+
 }
 
 #name_picture{
@@ -155,23 +159,26 @@ h3{
   position: fixed;
   top: 8%;
   left: 40%;
+  transform: translateZ(-100px);
 }
 
 #simpson_picture{
   width: 120%;
   height: auto;
+  transform: translateZ(-100px);
 }
 
 @keyframes spin {
-  from {
+  0% {
     transform: rotateX(0deg);
   }
-  to {
+  100% {
     transform: rotateX(1800deg);
   }
 }
 
 #simpsons_quote{
+  transform: translateZ(-100px);
   position: absolute;
   right: 10%;
   top: 50%;
